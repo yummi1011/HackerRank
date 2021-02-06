@@ -1,4 +1,6 @@
-//Practice>>Data Structures>>Arrays>>Array Manipulation
+>//Practice>>Data Structures>>Arrays>>Array Manipulation
+
+~~~
 
 long arrayManipulation(int n, vector<vector<int>> queries) {
     vector<long> a(n,0);
@@ -13,3 +15,5 @@ long arrayManipulation(int n, vector<vector<int>> queries) {
     }
     return result;
 }
+
+~~~

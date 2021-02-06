@@ -1,0 +1,15 @@
+//Practice>>Data Structures>>Arrays>>Array Manipulation
+
+long arrayManipulation(int n, vector<vector<int>> queries) {
+    vector<long> a(n,0);
+    for(int i=0;i<queries.size();i++){
+        a[queries[i][0]-1]+=queries[i][2];
+        if(queries[i][1]!=n)a[queries[i][1]]-=queries[i][2];
+    }
+    long result=0,sum=0;
+    for(int i=0;i<n;i++){
+        sum+=a[i];
+        if(sum>result) result=sum;
+    }
+    return result;
+}

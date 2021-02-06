@@ -1,4 +1,5 @@
-//Practice>>Data Structures>>Arrays>>Array Manipulation
+// Practice >> Data Structures >> Arrays >> Array Manipulation
+// O(n) time complexity and O(1) Auxiliary space
 
 long arrayManipulation(int n, vector<vector<int>> queries) {
     vector<long> a(n,0);

@@ -229,11 +229,11 @@ Markdown 区块引用是在段落开头使用 > 符号 ，然后后面紧跟一�
 ### 5.2 代码区块
 使用\`\`\`包裹一段代码：
 ```
-<code>```</code>
+&#96;
 $(document).ready(function () {
     alert('RUNOOB');
 });
-<code>```</code>
+
 ```
 显示效果如下： 
 ```
